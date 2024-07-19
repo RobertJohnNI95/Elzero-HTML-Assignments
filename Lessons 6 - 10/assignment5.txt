@@ -1,0 +1,10 @@
+بجانب كل Attribute من الموجودين في المثال قم بكتابة هل هو من ال Global Attribute أم لا ؟
+
+title       Global
+href        Global
+src         Global
+hidden      Global
+charset     Not Global
+class       Global
+id          Global
+type        Not Global
