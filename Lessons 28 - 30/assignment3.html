@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Form </title>
+    </head>
+    <body>
+        <form>
+            <!--
+            <div hidden>
+                <label> Token: </label>
+                <input type="hidden" name="token" value="b92f1fc2fce391ad7af633723afd3055">
+            </div>
+            <br>
+            <div>
+                <label> Email: </label>
+                <input type="email" name="email" value="o@o.com" readonly>
+            </div>
+            <br>
+            <div>
+                <label> Username: </label>
+                <input type="text" name="username" minlength="5" maxlength="20" required autofocus>
+            </div>
+            <br>
+            <div>
+                <label> Skills: </label>
+                <br>
+                <input type="checkbox" name="skills" value="Problem Solving" id="psolve" checked>
+                <label for="psolve"> Problem Solving </label>
+                <br>
+                <input type="checkbox" name="skills" value="Logical Thinking" id="lthink">
+                <label for="lthink"> Logical Thinking </label>
+                <br>
+                <input type="checkbox" name="skills" value="Advanced Search" id="asearch">
+                <label for="asearch"> Advanced Search </label>
+                <br>
+                <input type="checkbox" name="skills" value="Analysis" id="analyze">
+                <label for="analyze"> Analysis </label>
+                <br>
+                <input type="checkbox" name="skills" value="Planning" id="plan">
+                <label for="plan"> Planning </label>
+            </div>
+            <br>
+            <div>
+                <label> Job: </label>
+                <br>
+                <input type="radio" name="job" value="Front-End Dveloper" id="fedev" checked>
+                <label for="fedev"> Front-End Dveloper </label>
+                <br>
+                <input type="radio" name="job" value="Back-End Dveloper" id="bedev">
+                <label for="bedev"> Back-End Dveloper </label>
+                <br>
+                <input type="radio" name="job" value="Business Analyst" id="ba">
+                <label for="bs"> Business Analyst </label>
+                <br>
+                <input type="radio" name="job" value="Project Manager" id="pm">
+                <label for="pm"> Project Manager </label>
+                <br>
+                <input type="radio" name="job" value="Scrum Manager" id="sm">
+                <label for="sm"> Scrum Manager </label>
+            </div>
+            -->
+            <label for="lang"> Choose Book: </label>
+            <select name="Language" id="lang">
+                <optgroup label="PHP">
+                    <option value="PHP_v5.0"> v5.0 </option>
+                    <option value="PHP_v7.0"> v7.0 </option>
+                    <option value="PHP_v8.0"> v8.0 </option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option value="Python_v2.0"> v2.0 </option>
+                    <option value="Python_v3.0"> v3.0 </option>
+                    <option value="Python_v3.9"> v3.9 </option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea id="purpose" rows="10" cols="50" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+            <hr>
+            <div>
+                <input type="reset" value="Empty">
+                &nbsp;
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </body>
+</html>
